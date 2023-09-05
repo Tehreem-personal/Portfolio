@@ -30,7 +30,7 @@ const Navbar = () => {
             </ul>
         
         {/*Hamburger*/}
-        <div onClick ={handleClick} className='md:hidden z-10'>
+        <div onClick ={handleClick} className='md:hidden z-20'>
            {!nav ? <FaBars style={{color:"white"}}/> : <FaTimes/>}
             
              </div>
