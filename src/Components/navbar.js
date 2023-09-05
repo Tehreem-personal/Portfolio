@@ -4,6 +4,7 @@ import {HiOutlineMail} from 'react-icons/hi'
 import {BsPersonLinesFill} from 'react-icons/bs'
 import {FaBars, FaGithub, FaLinkedinIn, FaTimes} from 'react-icons/fa'
 import {Link} from "react-scroll"
+import TehreemCV from "../../src/TehreemCV.pdf"
 const Navbar = () => {
     const[nav, setNav]=useState(false);
     const handleClick=()=>setNav(!nav);
@@ -50,9 +51,9 @@ const Navbar = () => {
                      <Link  onClick={handleClick} to ="contact" smooth={true} duration={500}>Contact</Link></li>
             </ul>
         {/*Social Icons*/}
-        <div className='flex fixed flex-col top-[35%] left-0'>
+        <div className='lg:flex fixed flex-col top-[35%] left-0'>
 <ul>
-    <li className='w-[160px] h-[60px] flex font-bold justify-between item-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500 '>
+    <li className='w-[160px] h-[60px] flex font-bold justify-between item-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500'>
         <a className='flex justify-between items-center w-full text-gray-300'
          href="https://www.linkedin.com/in/tehreem-niaz-4a6a02146/" >Linkedin <FaLinkedinIn size={25}/></a>
     </li>
@@ -67,7 +68,7 @@ const Navbar = () => {
     </li>
     <li className='w-[160px] h-[60px] flex  font-bold justify-between item-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f59]'>
         <a className='flex justify-between items-center w-full text-gray-300'
-         href="/" >Resume <BsPersonLinesFill size={25}/> </a>
+         href="https://drive.google.com/file/d/1MVJGHBjxYvQ7PiikqmCtfRCfljIaa54l/view?usp=drive_link" >Resume <BsPersonLinesFill size={25}/> </a>
     </li>
 </ul>
 
