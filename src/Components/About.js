@@ -34,7 +34,7 @@ const About = () => {
                     <ul>
                         <li>
                             <p  className='text-2xl font-semibold text-orange-600'>1. User-Centric Design</p>
-                            <p className='text-justify pl-8'>I am fascinated by the intersection of design and technology. I am dedicated to creating websites that not only look stunning
+                            <p className='text-justify pl-8'>I am dedicated to creating websites that not only look stunning
                                  but also provide an exceptional user experience.</p>
                         </li>
                         <li> <p  className='text-2xl font-semibold text-orange-600'>2. Front-End Development</p>
