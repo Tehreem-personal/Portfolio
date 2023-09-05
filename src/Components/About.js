@@ -43,7 +43,7 @@ const About = () => {
                         <li>
                         <p  className='text-2xl font-semibold text-orange-600'>3. Responsive Design</p>
                         <p className='text-justify pl-8 mb-5'>
-                        I am skilled in using CSS frameworks like Bootstrap, Tailwind CSS and responsive design principles to ensure that websites look great on any screen.
+                        I am skilled in using frameworks like Bootstrap, Tailwind CSS and responsive design principles to ensure that websites look great on any screen.
                         </p>
                         </li>
                     </ul>

@@ -51,7 +51,7 @@ const Navbar = () => {
                      <Link  onClick={handleClick} to ="contact" smooth={true} duration={500}>Contact</Link></li>
             </ul>
         {/*Social Icons*/}
-        <div className='lg:flex fixed flex-col top-[35%] left-0'>
+        <div className='lg:flex fixed flex-col top-[35%] left-0 social'>
 <ul>
     <li className='w-[160px] h-[60px] flex font-bold justify-between item-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500'>
         <a className='flex justify-between items-center w-full text-gray-300'
